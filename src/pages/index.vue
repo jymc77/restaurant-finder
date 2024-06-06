@@ -22,7 +22,7 @@ const { data: restaurants, isError } = useFetchRestaurants();
       </a>
     </VAlert> -->
     <LoadingError v-if="isError" />
-    <div v-else-if="restaurants">
+    <div v-else-if="restaurants" class="grid gap-4 grid-cols-1 mt-4 sm:grid-cols-3">
       <RestaurantCard
         v-for="restaurant of restaurants"
         :key="restaurant.id"
