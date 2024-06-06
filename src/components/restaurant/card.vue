@@ -1,14 +1,9 @@
 <script setup lang="ts">
-import { type Restaurant, type Review } from '~/composables/restaurants';
+import { type Restaurant } from '~/composables/restaurants';
 
 defineProps<{
   restaurant: Restaurant
 }>();
-
-function ratingAverage(reviews: Review[]) {
-  const averageRating = reviews.reduce((acc, review) => acc + review.rating, 0) / reviews.length;
-  return averageRating;
-}
 </script>
 
 <template>
@@ -21,13 +16,13 @@ function ratingAverage(reviews: Review[]) {
     <VCardTitle>
       {{ restaurant?.name }}
     </VCardTitle>
-    <v-rating
-      :model-value="ratingAverage(restaurant?.reviews)"
-      active-color="primary"
-      color="primary"
-      half-increments
-      readonly
+    <RestaurantMeanRating
+      v-if="restaurant.reviews.length > 0"
+      :restaurant="restaurant"
     />
+    <p v-else class="text-sm p-4 text-gray-300 italic">
+      No-rating
+    </p>
     <VCardText>
       <RestaurantLocation :location="restaurant?.location" />
     </VCardText>

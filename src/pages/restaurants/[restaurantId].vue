@@ -11,7 +11,7 @@ const { data: restaurant, isError } = useFetchRestaurant({ restaurantId: params.
     <br>
     You should fix that
   </VAlert>
-  <div v-else class="grid grid-cols-[minmax(0,_1fr)_16rem] gap-6">
+  <div v-else class="grid grid-cols-1 sm:grid-cols-[minmax(0,_1fr)_16rem] gap-6">
     <VCard v-if="restaurant">
       <VImg
         v-for="photo in restaurant.photos"
@@ -24,32 +24,26 @@ const { data: restaurant, isError } = useFetchRestaurant({ restaurantId: params.
         <VCardTitle class="!text-4xl text-white">
           {{ restaurant.name }}
         </VCardTitle>
-        <VAlert variant="flat" type="warning" class="mx-4 inline-block">
-          TODO: display the mean rating
-          <br>
-          Vuetify has a component for this. Use this one
-        </VAlert>
+        <RestaurantMeanRating
+          v-if="restaurant.reviews.length > 0"
+          :restaurant="restaurant"
+        />
       </VImg>
       <VCardText>
         <div class="grid grid-cols-2 gap-4">
           <RestaurantLocation :location="restaurant.location" />
           <KeyValue icon="mdi-phone">
             <p class="text-body-1">
-              {{ restaurant.phone }}
-              <VAlert type="warning">
-                ↑ TODO: we would like to display the formatted phone
-              </VAlert>
+              {{ restaurant.phone }} <br>
+              {{ restaurant.display_phone }}
             </p>
           </KeyValue>
         </div>
       </VCardText>
     </VCard>
     <aside>
-      <VAlert type="warning">
-        TODO: this should go under the company card on small device
-      </VAlert>
       <ul class="pa-0">
-        <RestaurantReview />
+        <RestaurantReview v-if="restaurant" :restaurant="restaurant" />
       </ul>
     </aside>
   </div>
