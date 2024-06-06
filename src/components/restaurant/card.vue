@@ -16,11 +16,13 @@ defineProps<{
     <VCardTitle>
       {{ restaurant?.name }}
     </VCardTitle>
-    <VAlert variant="tonal" type="warning" class="mx-4 w-1/2">
-      TODO: display the average rating
-      <br>
-      Vuetify has a component for this. Use this one
-    </VAlert>
+    <RestaurantMeanRating
+      v-if="restaurant.reviews.length > 0"
+      :restaurant="restaurant"
+    />
+    <p v-else class="text-sm p-4 text-gray-300 italic">
+      No-rating
+    </p>
     <VCardText>
       <RestaurantLocation :location="restaurant?.location" />
     </VCardText>

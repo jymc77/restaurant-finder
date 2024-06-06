@@ -12,6 +12,7 @@ declare module 'vue' {
     RatingFilter: typeof import('./components/rating-filter.vue')['default']
     RestaurantCard: typeof import('./components/restaurant/card.vue')['default']
     RestaurantLocation: typeof import('./components/restaurant/location.vue')['default']
+    RestaurantMeanRating: typeof import('./components/restaurant/mean-rating.vue')['default']
     RestaurantReview: typeof import('./components/restaurant/review.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
