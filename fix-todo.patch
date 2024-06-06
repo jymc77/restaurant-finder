@@ -1,0 +1,52 @@
+diff --git a/src/components/restaurant/card.vue b/src/components/restaurant/card.vue
+index 435cfb5..c2ea059 100644
+--- a/src/components/restaurant/card.vue
++++ b/src/components/restaurant/card.vue
+@@ -1,9 +1,14 @@
+ <script setup lang="ts">
+-import { type Restaurant } from '~/composables/restaurants';
++import { type Restaurant, type Review } from '~/composables/restaurants';
+ 
+ defineProps<{
+   restaurant: Restaurant
+ }>();
++
++function ratingAverage(reviews: Review[]) {
++  const averageRating = reviews.reduce((acc, review) => acc + review.rating, 0) / reviews.length;
++  return averageRating;
++}
+ </script>
+ 
+ <template>
+@@ -16,11 +21,13 @@ defineProps<{
+     <VCardTitle>
+       {{ restaurant?.name }}
+     </VCardTitle>
+-    <VAlert variant="tonal" type="warning" class="mx-4 w-1/2">
+-      TODO: display the average rating
+-      <br>
+-      Vuetify has a component for this. Use this one
+-    </VAlert>
++    <v-rating
++      :model-value="ratingAverage(restaurant?.reviews)"
++      active-color="primary"
++      color="primary"
++      half-increments
++      readonly
++    />
+     <VCardText>
+       <RestaurantLocation :location="restaurant?.location" />
+     </VCardText>
+diff --git a/src/pages/index.vue b/src/pages/index.vue
+index ca2b341..863f3d7 100644
+--- a/src/pages/index.vue
++++ b/src/pages/index.vue
+@@ -22,7 +22,7 @@ const { data: restaurants, isError } = useFetchRestaurants();
+       </a>
+     </VAlert> -->
+     <LoadingError v-if="isError" />
+-    <div v-else-if="restaurants">
++    <div v-else-if="restaurants" class="grid gap-4 grid-cols-1 mt-4 sm:grid-cols-3">
+       <RestaurantCard
+         v-for="restaurant of restaurants"
+         :key="restaurant.id"
