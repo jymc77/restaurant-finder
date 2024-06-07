@@ -19,6 +19,7 @@ const filteredRestaurants = computed(() => {
     }, [] as Restaurant[])
     : null;
 });
+defineExpose({ filteredRestaurants });
 </script>
 
 <template>
@@ -26,11 +27,15 @@ const filteredRestaurants = computed(() => {
     <RatingFilter :results="filteredRestaurants?.length || 0" @filter:rating="filterRating = $event" />
     <LoadingError v-if="isError" />
     <div v-else-if="restaurants" class="grid gap-4 grid-cols-1 mt-4 sm:grid-cols-3">
-      <RestaurantCard
-        v-for="restaurant of filteredRestaurants"
-        :key="restaurant.id"
-        :restaurant="restaurant"
-      />
+      <transition-group name="list-complete" tag="p">
+        <RestaurantCard
+          v-for="restaurant of filteredRestaurants"
+          :key="restaurant.id"
+          :restaurant="restaurant"
+        />
+      </transition-group>
     </div>
   </div>
 </template>
+
+<style></style>
