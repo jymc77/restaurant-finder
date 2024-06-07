@@ -41,6 +41,12 @@
     "photos": [
       "https://s3-media3.fl.yelpcdn.com/bphoto/g87Q_elyu0-J-R8NGaHSAA/o.jpg"
     ],
+    "location": {
+      "address1": "Gänsemarkt 43",
+      "city": "Hamburg",
+      "postal_code": "20354",
+      "formatted_address": "Gänsemarkt 43\n4. OG\n20354 Hamburg\nGermany"
+    },
     "reviews": [
       {
         "text": "Just opened location and I'm a big fan. The way the restaurant operates is that there an ipad menus inside every table. You order directly from your table...",
@@ -333,7 +339,7 @@
     "phone": "+494089065567",
     "display_phone": "+49 40 89065567",
     "photos": [
-      "https://s3-media4.fl.yelpcdn.com/bphoto/CVXiAKoXv6yEYCJDhoKPzw/o.jpg"
+      "https://s3-media0.fl.yelpcdn.com/bphoto/IaYaS9N_MLhbOeSeehIH6w/o.jpg"
     ],
     "location": {
       "address1": "Ballindamm 40",
@@ -394,7 +400,7 @@
     "phone": "+4940822177873",
     "display_phone": "+49 40 822177873",
     "photos": [
-      "https://s3-media2.fl.yelpcdn.com/bphoto/jbqXJ4DZz6LV6LJ3FVM_fw/o.jpg"
+      "https://s3-media0.fl.yelpcdn.com/bphoto/Qvm9_14fxXEFfW2QGbx89w/o.jpg"
     ],
     "location": {
       "address1": "Börsenbrücke 10",

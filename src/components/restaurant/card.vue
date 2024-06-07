@@ -7,7 +7,7 @@ defineProps<{
 </script>
 
 <template>
-  <VCard>
+  <VCard class="flex! flex-col">
     <VImg
       height="100"
       cover

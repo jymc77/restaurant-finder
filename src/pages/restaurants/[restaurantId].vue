@@ -40,6 +40,11 @@ const { data: restaurant, isError } = useFetchRestaurant({ restaurantId: params.
           </KeyValue>
         </div>
       </VCardText>
+      <VCardActions class="mt-auto">
+        <VBtn color="primary" variant="tonal" to="/">
+          Go back
+        </VBtn>
+      </VCardActions>
     </VCard>
     <aside>
       <ul class="pa-0">
