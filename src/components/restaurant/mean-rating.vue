@@ -8,7 +8,7 @@ defineProps<{
 
 <template>
   <v-rating
-    :model-value="restaurantsRatings.get(restaurant.id)"
+    :model-value="restaurantsRatings.get(restaurant?.id)"
     active-color="primary"
     color="primary"
     half-increments

@@ -17,7 +17,7 @@ defineProps<{
       {{ restaurant?.name }}
     </VCardTitle>
     <RestaurantMeanRating
-      v-if="restaurant.reviews.length > 0"
+      v-if="restaurant?.reviews.length > 0"
       :restaurant="restaurant"
     />
     <p v-else class="text-sm p-4 text-gray-300 italic">
