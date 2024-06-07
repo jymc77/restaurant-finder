@@ -34,6 +34,11 @@ Germany</pre>
         </div>
       </div>
     </div>
+    <div class=\\"v-card-actions mt-auto\\"><a class=\\"v-btn v-theme--light text-primary v-btn--density-default v-btn--size-default v-btn--variant-tonal\\" href=\\"/\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+        <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"> Go back </span>
+        <!---->
+        <!---->
+      </a></div>
     <!---->
     <!----><span class=\\"v-card__underlay\\"></span>
   </div>
@@ -56,144 +61,144 @@ Germany</pre>
         <!---->
         <div class=\\"v-card-text flex flex-col gap-4\\">
           <div class=\\"\\">
-            <div class=\\"v-rating v-rating--readonly v-theme--light\\"><label for=\\"v-rating-0-0\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 0 of 5</span>
+            <div class=\\"v-rating v-rating--readonly v-theme--light\\"><label for=\\"v-rating-1-0\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 0 of 5</span>
                 <!---->
-              </label><input class=\\"v-rating__hidden\\" name=\\"v-rating-0\\" id=\\"v-rating-0-0\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"0\\">
+              </label><input class=\\"v-rating__hidden\\" name=\\"v-rating-1\\" id=\\"v-rating-1-0\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"0\\">
               <div class=\\"v-rating__wrapper\\">
                 <!---->
-                <div class=\\"v-rating__item\\"><label for=\\"v-rating-0-0-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 0.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                <div class=\\"v-rating__item\\"><label for=\\"v-rating-1-0-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 0.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-0\\" id=\\"v-rating-0-0-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"0.5\\"><label for=\\"v-rating-0-1\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 1 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-1\\" id=\\"v-rating-1-0-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"0.5\\"><label for=\\"v-rating-1-1\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 1 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-0\\" id=\\"v-rating-0-1\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"1\\"></div>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-1\\" id=\\"v-rating-1-1\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"1\\"></div>
                 <!---->
               </div>
               <div class=\\"v-rating__wrapper\\">
                 <!---->
-                <div class=\\"v-rating__item\\"><label for=\\"v-rating-0-1-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 1.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                <div class=\\"v-rating__item\\"><label for=\\"v-rating-1-1-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 1.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-0\\" id=\\"v-rating-0-1-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"1.5\\"><label for=\\"v-rating-0-2\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 2 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-1\\" id=\\"v-rating-1-1-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"1.5\\"><label for=\\"v-rating-1-2\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 2 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-0\\" id=\\"v-rating-0-2\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"2\\"></div>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-1\\" id=\\"v-rating-1-2\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"2\\"></div>
                 <!---->
               </div>
               <div class=\\"v-rating__wrapper\\">
                 <!---->
-                <div class=\\"v-rating__item\\"><label for=\\"v-rating-0-2-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 2.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                <div class=\\"v-rating__item\\"><label for=\\"v-rating-1-2-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 2.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-0\\" id=\\"v-rating-0-2-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"2.5\\"><label for=\\"v-rating-0-3\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 3 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-1\\" id=\\"v-rating-1-2-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"2.5\\"><label for=\\"v-rating-1-3\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 3 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-0\\" id=\\"v-rating-0-3\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"3\\"></div>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-1\\" id=\\"v-rating-1-3\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"3\\"></div>
                 <!---->
               </div>
               <div class=\\"v-rating__wrapper\\">
                 <!---->
-                <div class=\\"v-rating__item\\"><label for=\\"v-rating-0-3-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 3.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                <div class=\\"v-rating__item\\"><label for=\\"v-rating-1-3-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 3.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-0\\" id=\\"v-rating-0-3-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"3.5\\"><label for=\\"v-rating-0-4\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 4 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-1\\" id=\\"v-rating-1-3-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"3.5\\"><label for=\\"v-rating-1-4\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 4 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-0\\" id=\\"v-rating-0-4\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"4\\"></div>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-1\\" id=\\"v-rating-1-4\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"4\\"></div>
                 <!---->
               </div>
               <div class=\\"v-rating__wrapper\\">
                 <!---->
-                <div class=\\"v-rating__item\\"><label for=\\"v-rating-0-4-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 4.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                <div class=\\"v-rating__item\\"><label for=\\"v-rating-1-4-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 4.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star-outline mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-0\\" id=\\"v-rating-0-4-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"4.5\\"><label for=\\"v-rating-0-5\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-1\\" id=\\"v-rating-1-4-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"4.5\\"><label for=\\"v-rating-1-5\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star-outline mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-0\\" id=\\"v-rating-0-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"5\\"></div>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-1\\" id=\\"v-rating-1-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"5\\"></div>
                 <!---->
               </div>
             </div>
             <p class=\\"whitespace-pre-line\\">I've had decent lunches at Billy The Butcher a couple of times now. It's what I would describe as a trendy burger joint on the 4th floor of the Alsterhaus...</p>
           </div>
           <div class=\\"\\">
-            <div class=\\"v-rating v-rating--readonly v-theme--light\\"><label for=\\"v-rating-11-0\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 0 of 5</span>
+            <div class=\\"v-rating v-rating--readonly v-theme--light\\"><label for=\\"v-rating-12-0\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 0 of 5</span>
                 <!---->
-              </label><input class=\\"v-rating__hidden\\" name=\\"v-rating-11\\" id=\\"v-rating-11-0\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"0\\">
+              </label><input class=\\"v-rating__hidden\\" name=\\"v-rating-12\\" id=\\"v-rating-12-0\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"0\\">
               <div class=\\"v-rating__wrapper\\">
                 <!---->
-                <div class=\\"v-rating__item\\"><label for=\\"v-rating-11-0-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 0.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                <div class=\\"v-rating__item\\"><label for=\\"v-rating-12-0-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 0.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-11\\" id=\\"v-rating-11-0-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"0.5\\"><label for=\\"v-rating-11-1\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 1 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-12\\" id=\\"v-rating-12-0-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"0.5\\"><label for=\\"v-rating-12-1\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 1 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-11\\" id=\\"v-rating-11-1\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"1\\"></div>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-12\\" id=\\"v-rating-12-1\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"1\\"></div>
                 <!---->
               </div>
               <div class=\\"v-rating__wrapper\\">
                 <!---->
-                <div class=\\"v-rating__item\\"><label for=\\"v-rating-11-1-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 1.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                <div class=\\"v-rating__item\\"><label for=\\"v-rating-12-1-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 1.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-11\\" id=\\"v-rating-11-1-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"1.5\\"><label for=\\"v-rating-11-2\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 2 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-12\\" id=\\"v-rating-12-1-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"1.5\\"><label for=\\"v-rating-12-2\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 2 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-11\\" id=\\"v-rating-11-2\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"2\\"></div>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-12\\" id=\\"v-rating-12-2\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"2\\"></div>
                 <!---->
               </div>
               <div class=\\"v-rating__wrapper\\">
                 <!---->
-                <div class=\\"v-rating__item\\"><label for=\\"v-rating-11-2-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 2.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                <div class=\\"v-rating__item\\"><label for=\\"v-rating-12-2-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 2.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-11\\" id=\\"v-rating-11-2-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"2.5\\"><label for=\\"v-rating-11-3\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 3 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-12\\" id=\\"v-rating-12-2-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"2.5\\"><label for=\\"v-rating-12-3\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 3 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-11\\" id=\\"v-rating-11-3\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"3\\"></div>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-12\\" id=\\"v-rating-12-3\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"3\\"></div>
                 <!---->
               </div>
               <div class=\\"v-rating__wrapper\\">
                 <!---->
-                <div class=\\"v-rating__item\\"><label for=\\"v-rating-11-3-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 3.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                <div class=\\"v-rating__item\\"><label for=\\"v-rating-12-3-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 3.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-11\\" id=\\"v-rating-11-3-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"3.5\\"><label for=\\"v-rating-11-4\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 4 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-12\\" id=\\"v-rating-12-3-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"3.5\\"><label for=\\"v-rating-12-4\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 4 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-11\\" id=\\"v-rating-11-4\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"4\\"></div>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-12\\" id=\\"v-rating-12-4\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"4\\"></div>
                 <!---->
               </div>
               <div class=\\"v-rating__wrapper\\">
                 <!---->
-                <div class=\\"v-rating__item\\"><label for=\\"v-rating-11-4-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 4.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                <div class=\\"v-rating__item\\"><label for=\\"v-rating-12-4-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 4.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star-outline mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-11\\" id=\\"v-rating-11-4-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"4.5\\"><label for=\\"v-rating-11-5\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-12\\" id=\\"v-rating-12-4-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"4.5\\"><label for=\\"v-rating-12-5\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star-outline mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-11\\" id=\\"v-rating-11-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"5\\"></div>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-12\\" id=\\"v-rating-12-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"5\\"></div>
                 <!---->
               </div>
             </div>
@@ -202,72 +207,72 @@ Germany</pre>
               I ordered...</p>
           </div>
           <div class=\\"\\">
-            <div class=\\"v-rating v-rating--readonly v-theme--light\\"><label for=\\"v-rating-22-0\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 0 of 5</span>
+            <div class=\\"v-rating v-rating--readonly v-theme--light\\"><label for=\\"v-rating-23-0\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 0 of 5</span>
                 <!---->
-              </label><input class=\\"v-rating__hidden\\" name=\\"v-rating-22\\" id=\\"v-rating-22-0\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"0\\">
+              </label><input class=\\"v-rating__hidden\\" name=\\"v-rating-23\\" id=\\"v-rating-23-0\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"0\\">
               <div class=\\"v-rating__wrapper\\">
                 <!---->
-                <div class=\\"v-rating__item\\"><label for=\\"v-rating-22-0-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 0.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                <div class=\\"v-rating__item\\"><label for=\\"v-rating-23-0-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 0.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-22\\" id=\\"v-rating-22-0-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"0.5\\"><label for=\\"v-rating-22-1\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 1 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-23\\" id=\\"v-rating-23-0-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"0.5\\"><label for=\\"v-rating-23-1\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 1 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-22\\" id=\\"v-rating-22-1\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"1\\"></div>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-23\\" id=\\"v-rating-23-1\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"1\\"></div>
                 <!---->
               </div>
               <div class=\\"v-rating__wrapper\\">
                 <!---->
-                <div class=\\"v-rating__item\\"><label for=\\"v-rating-22-1-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 1.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                <div class=\\"v-rating__item\\"><label for=\\"v-rating-23-1-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 1.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-22\\" id=\\"v-rating-22-1-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"1.5\\"><label for=\\"v-rating-22-2\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 2 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-23\\" id=\\"v-rating-23-1-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"1.5\\"><label for=\\"v-rating-23-2\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 2 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-22\\" id=\\"v-rating-22-2\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"2\\"></div>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-23\\" id=\\"v-rating-23-2\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"2\\"></div>
                 <!---->
               </div>
               <div class=\\"v-rating__wrapper\\">
                 <!---->
-                <div class=\\"v-rating__item\\"><label for=\\"v-rating-22-2-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 2.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                <div class=\\"v-rating__item\\"><label for=\\"v-rating-23-2-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 2.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-22\\" id=\\"v-rating-22-2-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"2.5\\"><label for=\\"v-rating-22-3\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 3 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-23\\" id=\\"v-rating-23-2-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"2.5\\"><label for=\\"v-rating-23-3\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 3 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-22\\" id=\\"v-rating-22-3\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"3\\"></div>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-23\\" id=\\"v-rating-23-3\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"3\\"></div>
                 <!---->
               </div>
               <div class=\\"v-rating__wrapper\\">
                 <!---->
-                <div class=\\"v-rating__item\\"><label for=\\"v-rating-22-3-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 3.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                <div class=\\"v-rating__item\\"><label for=\\"v-rating-23-3-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 3.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-22\\" id=\\"v-rating-22-3-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"3.5\\"><label for=\\"v-rating-22-4\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 4 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-23\\" id=\\"v-rating-23-3-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"3.5\\"><label for=\\"v-rating-23-4\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 4 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-22\\" id=\\"v-rating-22-4\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"4\\"></div>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-23\\" id=\\"v-rating-23-4\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"4\\"></div>
                 <!---->
               </div>
               <div class=\\"v-rating__wrapper\\">
                 <!---->
-                <div class=\\"v-rating__item\\"><label for=\\"v-rating-22-4-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 4.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                <div class=\\"v-rating__item\\"><label for=\\"v-rating-23-4-5\\" class=\\"v-rating__item--half\\"><span class=\\"v-rating__hidden\\">Rating 4.5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star-outline mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-22\\" id=\\"v-rating-22-4-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"4.5\\"><label for=\\"v-rating-22-5\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-23\\" id=\\"v-rating-23-4-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"4.5\\"><label for=\\"v-rating-23-5\\" class=\\"v-rating__item--full\\"><span class=\\"v-rating__hidden\\">Rating 5 of 5</span><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light text-primary v-btn--density-compact v-btn--size-default v-btn--variant-plain\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
                       <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-star-outline mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
                       <!---->
                       <!---->
-                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-22\\" id=\\"v-rating-22-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"5\\"></div>
+                    </button></label><input class=\\"v-rating__hidden\\" name=\\"v-rating-23\\" id=\\"v-rating-23-5\\" type=\\"radio\\" tabindex=\\"-1\\" readonly=\\"\\" value=\\"5\\"></div>
                 <!---->
               </div>
             </div>
