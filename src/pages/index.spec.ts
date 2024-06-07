@@ -1,5 +1,6 @@
 import { flushPromises, mount } from '@vue/test-utils';
 
+import RatingFilter from '../components/rating-filter.vue';
 import PageHome from './index.vue';
 import restaurantsResponse from '@/mock/restaurants.json';
 import * as apiService from '~/services/api';
@@ -25,6 +26,10 @@ describe(`page-home`, () => {
     expect(apiService.api).toHaveBeenCalledWith(`restaurants`);
     expect(wrapper.findComponent(LoadingError).exists()).toBe(false);
     expect(wrapper.findAllComponents(RestaurantCard).length).toBe(restaurantsResponse.length);
+
+    const ratingFilter = wrapper.findComponent(RatingFilter);
+    ratingFilter.vm.$emit(`filter:rating`, 1);
+    expect(wrapper.vm.filteredRestaurants!.length).toBe(17);
   });
 
   it(`handles fetch error`, async (context) => {

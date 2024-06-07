@@ -1,9 +1,16 @@
-// import { mount } from '@vue/test-utils';
+import { mount } from '@vue/test-utils';
 
-// import RestaurantReview from './review.vue';
+import Review from './review.vue';
+import restaurantsResponse from '@/mock/restaurants.json';
 
-describe(`restaurant-review`, () => {
-  test.todo(`no props`);
+const restaurant = restaurantsResponse[0];
 
-  it.todo(`renders a review`);
+describe(`review`, () => {
+  it(`renders a review`, (context) => {
+    const wrapper = mount(Review, {
+      global: { plugins: [context.router] },
+      props: { restaurant },
+    });
+    expect(wrapper.html()).toMatchSnapshot();
+  });
 });
