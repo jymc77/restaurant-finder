@@ -27,13 +27,11 @@ defineExpose({ filteredRestaurants });
     <RatingFilter :results="filteredRestaurants?.length || 0" @filter:rating="filterRating = $event" />
     <LoadingError v-if="isError" />
     <div v-else-if="restaurants" class="grid gap-4 grid-cols-1 mt-4 sm:grid-cols-3">
-      <transition-group name="list-complete" tag="p">
-        <RestaurantCard
-          v-for="restaurant of filteredRestaurants"
-          :key="restaurant.id"
-          :restaurant="restaurant"
-        />
-      </transition-group>
+      <RestaurantCard
+        v-for="restaurant of filteredRestaurants"
+        :key="restaurant.id"
+        :restaurant="restaurant"
+      />
     </div>
   </div>
 </template>
